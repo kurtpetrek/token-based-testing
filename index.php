@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Project Code Test</title>
+  <title>Token Test</title>
 
   <style>
     @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -132,16 +132,6 @@
 <?php
     // PHP placed in hidden div to hide return output from writting to used-ids.txt
     
-    
-    //  Check for Project Code or Office readiness, C for Project Code, O for office readiness
-//     if (substr($user_input, 0, 1) === 'p') {
-//       $project_code = true;
-//       $office_readiness = false;
-//     }
-//     if (substr($user_input, 0, 1) === 'o') {
-//       $office_readiness = true;
-//       $project_code = false;
-//     }
     
     //  Checks to see if page was loaded with POST data from form
  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
